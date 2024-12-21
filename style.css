@@ -1,0 +1,40 @@
+.header {
+  height: 600px;
+  background-image: url(./images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.header-content {
+  background-color: rgb(36, 40, 44, 0.6);
+}
+.kadastr-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.qishloq-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.suv-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.ekologiya-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.qurulish-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.suniy-intelekt-title {
+  margin-top: 96px;
+  margin-bottom: 86px;
+}
+.footer{
+  background-image: url(./images/footer-img.png);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  margin-top: 152px;
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  <link rel="stylesheet" href="./bootstrap.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+      <ul class="list-unstyled d-lg-flex d-none align-items-center gap-5 mb-0">
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mahsulotlar
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Yechimlar
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Qo'llab-quvvatlash
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Batafsil
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="navbar-icon d-lg-flex d-none gap-3">
+        <i class="fa-solid fa-earth-asia"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <button class="navbar-toggler d-lg-none d-flex" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- header -->
+  <header class="header">
+    <div class="header-content h-100 d-flex justify-content-center align-items-center">
+      <h1 class="text-white">Xizmatlar va mahsulotlar</h1>
+    </div>
+  </header>
+  <!-- header end -->
+  <!-- kadastr -->
+  <section class="kadastr">
+    <div class="container">
+      <p class="h1 kadastr-title text-center">Yer kadastri</p>
+      <div class="row gy-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/kochmas.png" alt="" />
+            <p class="h4">Ko'chmas mulkni shakllantirish</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/kadastr.png" alt="" />
+            <p class="h4">Kadastr indeksi xaritalarini ishlab chiqarish</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/geodeziya.png" alt="" />
+            <p class="h4">Geodeziya va xaritalash</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/kommunal.png" alt="" />
+            <p class="h4">Kommunal xizmatlar xaritasi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- kadastr end -->
+  <!-- qishloq xo'jaligi -->
+  <section class="qishloq">
+    <div class="container">
+      <p class="h1 qishloq-title text-center">Qishloq xo'jaligi</p>
+      <div class="row gy-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/hosildorlik.png" alt="" />
+            <p class="h4">Hosildorlik dinamikasi monitoringi</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/ekin.png" alt="" />
+            <p class="h4">Ekin turlarini tasniflash xaritasini ishlab chiqish</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/tuproq.png" alt="" />
+            <p class="h4">Tuproq holatini baholash</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/hosildorlikni.png" alt="" />
+            <p class="h4">Hosildorlikni bashorat qilish</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- qishloq xo'jaligi end -->
+  <!-- suv -->
+  <section class="suv">
+    <div class="container">
+      <p class="h1 suv-title text-center">Qishloq xo'jaligi</p>
+      <div class="row gy-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/suv-toshqini.png" alt="" />
+            <p class="h4">Suvini toshqini xaritas tuzish va monitoringi</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/gidrologik.png" alt="" />
+            <p class="h4">Gidrologik modellashtirish</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/qurg'oqchilik.png" alt="" />
+            <p class="h4">Qurg'oqchilik monitoringi</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/suv-ifloslanish.png" alt="" />
+            <p class="h4">Suvning ifloslanishini nazorat qilish</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- suv end -->
+  <!-- ekologiya -->
+  <section class="ekologiya">
+    <div class="container">
+      <p class="h1 ekologiya-title text-center">Ekologiya va atrof-muhit</p>
+      <div class="row gy-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/o'rmon.png" alt="" />
+            <p class="h4">O'rmon
+              xo'jaligi</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/atmosfera.png" alt="" />
+            <p class="h4">Atmosferaning
+              ifloslanishi monitoringi</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/ifloslanish.png" alt="" />
+            <p class="h4">Ifloslanish
+              monitoringi: poligonlar</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/iqlim-o'zgarish.png" alt="" />
+            <p class="h4">Iqlim o'zgarishi
+              ta'siri monitoringi</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class=" d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/vegetatsiya.png" alt="" />
+            <p class="h4">Vegetatsiya dinamikasi</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/o'simlik.png" alt="" />
+            <p class="h4">O‘simlik va hayvonot dunyosini kuzatish va xaritalash</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/alga.png" alt="" />
+            <p class="h4">AIga asoslangan boshqaruv paneli yordamida ma'lumotlarni boshqarish</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/kochmas.png" alt="" />
+            <p class="h4">Ko'chmas mulk
+              bozori tahlili</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/toshqin.png" alt="" />
+            <p class="h4">Suv toshqinini xaritalash
+              va xavfni baholash</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/bim.png" alt="" />
+            <p class="h4">BIM+3DGAT
+              xizmati</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ekologiya end -->
+
+  <!-- suniy intelekt -->
+  <section class="suniy-intelekt">
+    <div class="container">
+      <p class="h1 suniy-intelekt-title text-center">Sun'iy intellekt</p>
+      <div class="row gy-4">
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/gis.png" alt="" />
+            <p class="h4">GIS ML asosida
+              jinoyatlarni tahlil qilish</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/uy-joy.png" alt="" />
+            <p class="h4">Infratuzilma ta'sirida
+              uy-joy narxlarini baholash</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/yo'l.png" alt="" />
+            <p class="h4">Ob'ektni aniqlash:
+              ta’mirtalab yo'llar</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/AI-AR.png" alt="" />
+            <p class="h4">AI + AR
+              maʼlumot toʻplash</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class=" d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/AI-uchun.png" alt="" />
+            <p class="h4">AI uchun fazoviy tahlil:
+              geografik chegara asosidagi
+              yo'l harakati buzilishi monitori</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/ro'yxat.png" alt="" />
+            <p class="h4">AI uchun fazoviy
+              vizualizatsiya: Yo`l harakati
+              monitoringi vizualizatsiyasi</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="d-flex flex-column align-items-center text-center gap-4">
+            <img src="./images/surat.png" alt="" />
+            <p class="h4">Shahar boshqaruvi uchun
+              turli burchaklardan suratga olish
+              (oblique photography) modeli</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- suniy intelekt end -->
+  <!-- footer -->
+  <footer class="footer container"></footer>
+  <!-- footer end -->
+  <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
